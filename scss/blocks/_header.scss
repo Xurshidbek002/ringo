@@ -1,0 +1,44 @@
+.header {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  &__img {
+    width: 122px;
+    height: 53px;
+  }
+
+  &__nav a {
+    margin-right: 25px;
+    color: $qora;
+
+    &:hover {
+      color: $btn-color;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+
+    &-href {
+      margin-left: 20px;
+    }
+
+    &-link {
+      display: flex;
+      align-items: center;
+      margin-left: 40px;
+      background-color: rgba(220, 220, 220, 0.359);
+      padding: 5px 9px;
+      border-radius: 7px;
+      color: $qora;
+    }
+    &-link img {
+      margin-right: 10px;
+    }
+  }
+}

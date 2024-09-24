@@ -1,0 +1,96 @@
+.wash {
+  background: #3d4a39;
+  background: url(../../images/washimg.png);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: right;
+  margin-bottom: 120px;
+
+  .container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #3d4a39;
+    width: 50%;
+    // height: 90vh;
+    padding: 50px 0 50px 10px;
+
+    &-title {
+      font-size: 46px;
+      font-weight: 600;
+      line-height: 57.5px;
+      text-align: left;
+      width: 400px;
+      color: #fff;
+    }
+
+    &-text {
+      width: 336px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 23.2px;
+      text-align: left;
+      color: #fff;
+    }
+
+    &-input {
+      border: none;
+      border-bottom: 2px solid #535353;
+      margin-top: 25px;
+      width: 300px;
+      padding-bottom: 5px;
+      color: #fff;
+
+      background-color: transparent;
+
+      &:focus {
+        outline: none;
+      }
+    }
+    &-inputt {
+      border: none;
+      padding-bottom: 25px;
+    }
+
+    &-button {
+      width: 300px;
+      padding: 20px 0;
+      background-color: $btn-color;
+      border: none;
+      color: #fff;
+      border-radius: 12px;
+
+      &:hover {
+        background-color: #ad804a;
+      }
+    }
+
+    &-inputtt {
+      margin-right: 5px;
+    }
+    &-label {
+      display: flex;
+      margin-top: 25px;
+      justify-content: start;
+      color: #fff;
+    }
+  }
+
+  &__img {
+    position: absolute;
+
+    width: 92px;
+    height: 100%;
+    left: -6%;
+    top: 0%;
+  }
+}
